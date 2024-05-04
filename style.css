@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 800px;
+    background-color: #F6f6f6;
+    margin: auto;
+}
+
+.container .getrepo {
+    padding: 20px;
+    display: flex;
+    background-color: #eee;
+
+}
+
+.container .getrepo input {
+ width: 100%;
+ padding: 15px 20px;
+ border: none;
+ font-size: 20px;
+ height: 55px;
+}
+
+.container .getrepo input:focus{
+outline: 2px solid #F44336;
+}
+
+.container .getrepo .get-button {
+width: 140px;
+margin-left: 10px;
+height: 55px;
+background-color: #F44336;
+color: #FFF;
+line-height: 55px;
+text-align: center;
+font-weight: bold;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.container .show-data {
+    padding: 20px;
+    background-color: #e0e0e0;
+}
+
+.repoBox{
+    background-color: #fff;
+    padding:15px;
+
+}
+
+.repoBox:not(:last-child){
+    margin-bottom: 5px;
+}
+
+.repoBox a,
+.repoBox span {
+    float: right;
+    margin-left: 4px;
+    border-radius: 4px;
+    color: white;
+    font-size: 12px;
+    width: 90px;
+    text-align: center;
+    padding: 4px;
+}
+
+.repoBox a {
+    text-decoration: none;
+    background-color: #e91e63;
+}
+
+.repoBox span {
+    background-color: #009688;
+}
